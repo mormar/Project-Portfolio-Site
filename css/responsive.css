@@ -1,0 +1,462 @@
+@media screen and (max-width: 767px) {
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #fff;
+      opacity: 0.6;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      font-size: 20px;
+      padding-top: 2px;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 5px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #000;
+      color: #fff;
+  }
+
+  .backgroundPicture {
+      background-color: #5c6b76;
+      padding-top: 20px;
+  }
+
+  #myFoto {
+      width: 95%;
+      border-radius: 50%;
+      padding: 0.5em;
+  }
+
+  .text {
+      font-size: 17px;
+      line-height: 1.25em;
+      padding-bottom: 0.25em;
+      -webkit-text-fill-color: #fff;
+      -webkit-text-stroke-width: 0px;
+  }
+
+  #marcin {
+      order: 0;
+  }
+
+  #about {
+      padding-top: 25px;
+      order: 1;
+  }
+
+  #projects {
+      padding-top: 5px;
+      order: 2;
+  }
+
+  #skills {
+      padding-top: 5px;
+      order: 3;
+  }
+
+  #contact {
+      order: 4;
+  }
+
+  .textAboutMe {
+      font-size: 16px;
+      /*margin: top right bottom left;*/
+      margin: 0.5em 0.5em 1em 0.5em;
+  }
+
+  .picture {
+      width: 95%;
+      padding: 0.5em;
+  }
+
+  #santaGithub {
+      padding-bottom: 20px;
+  }
+
+  #c {
+      padding-bottom: 20px;
+      filter: grayscale(100%);
+  }
+
+  #html, #css, #javascript, #jquery, #bootstrap3, #java {
+      filter: grayscale(100%);
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px){
+
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #fff;
+      opacity: 0.6;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      font-size: 25px;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #000;
+      color: #fff;
+  }
+
+  #marcin {
+      order: 0;
+  }
+
+  #myFoto {
+      width: 20%;
+      border-radius: 50%;
+      padding: 0.5em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .backgroundPicture {
+      padding-top: 150px;
+      background: url("../img/mac.jpeg") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .text {
+      -webkit-text-fill-color: #fff;
+      -webkit-text-stroke-width: 0.25px;
+      font-size: 35px;
+      line-height: 1.25em;
+      padding-bottom: 20px;
+  }
+
+  .textAboutMe {
+      font-size: 20px;
+      /*margin: top right bottom left;*/
+      margin: 1em 1.5em 1em 1.5em;
+  }
+
+  #about {
+      padding-top: 25px;
+      order: 1;
+  }
+
+  #projects {
+      padding-top: 25px;
+      order: 2;
+  }
+
+  #skills {
+      padding-top: 25px;
+      order: 3;
+  }
+
+  #skillsTitle {
+      order: 4;
+      width: 100%;
+  }
+
+  #htmlPicture {
+      order: 5;
+      width: 33%;
+  }
+
+  #cssPicture {
+      order: 6;
+      width: 33%;
+  }
+
+  #javascriptPicture {
+      order: 7;
+      width: 33%;
+  }
+
+  #jqueryPicture {
+      order: 8;
+      width: 33%;
+  }
+
+  #bootstrap3Picture {
+      order: 9;
+      width: 33%;
+  }
+
+  #javaPicture {
+      order: 10;
+      width: 33%;
+  }
+
+  #cPicture {
+      order: 11;
+      width: 100%;
+  }
+
+  #c {
+      padding-bottom: 20px;
+      filter: grayscale(100%);
+  }
+
+  #html, #css, #javascript, #jquery, #bootstrap3, #java {
+      filter: grayscale(100%);
+  }
+
+  .picture {
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #projectTitle {
+      font-size: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0px;
+  }
+
+  .textProject {
+      font-size: 20px;
+      /*margin: top right bottom left;*/
+      margin: 0.5em 1.5em 0.5em 1.5em;
+  }
+
+  .textProjectTitle {
+      font-size: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  #santaGithub {
+      padding-bottom: 20px;
+  }
+
+  #contact {
+      width: 100%;
+      order: 12;
+  }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+  .container {
+      width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #fff;
+      opacity: 0.6;
+      position: fixed;
+      top: 0;
+      font-size: 24px;
+      padding-top: 2px;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 4px 30px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #000;
+      color: #fff;
+  }
+
+  #myFoto {
+      display: none;
+  }
+
+  #marcin {
+      order: 0;
+      width: 50%;
+  }
+
+  .backgroundPicture {
+      background: url("../img/marcin.jpg") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .text {
+      -webkit-text-fill-color: #fff;
+      -webkit-text-stroke-width: 0.25px;
+      font-size: 35px;
+      line-height: 1.25em;
+      padding-top: 280px;
+  }
+
+  #about {
+      order: 1;
+      width: 50%;
+  }
+
+  .textAboutMe {
+      font-size: 18px;
+      /*margin: top right bottom left;*/
+      margin: 1em 1.5em 1em 1.5em;
+  }
+
+  #projects {
+      padding-top: 5px;
+      order: 2;
+      width: 100%;
+  }
+
+  #projectTitle {
+      order: 3;
+      width: 100%;
+      font-size: 60px;
+  }
+
+  #projectLf {
+      order: 4;
+      width: 33%;
+  }
+
+  #projectPixel {
+      order: 5;
+      width: 33%;
+  }
+
+  #projectSnataHunter {
+      order: 6;
+      width: 33%;
+  }
+
+  .picture {
+      width: 90%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .textProjectTitle {
+      font-size: 23px;
+  }
+
+  .textProject {
+      font-size: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  #pixelArticle {
+      display: block;
+      padding-top: 40px;
+  }
+
+  #skills {
+      order: 7;
+      width: 100%;
+      font-size: 60px;
+  }
+
+  #skillsTitle {
+      order: 8;
+      width: 100%;
+      padding-bottom: 0px;
+  }
+
+  #htmlPicture {
+      order: 9;
+      width: 14.28%;
+  }
+
+  #cssPicture {
+      order: 10;
+      width: 14.28%;
+  }
+
+  #javascriptPicture {
+      order: 11;
+      width: 14.28%;
+  }
+
+  #jqueryPicture {
+      order: 12;
+      width: 14.28%;
+  }
+
+  #bootstrap3Picture {
+      order: 13;
+      width: 14.28%;
+  }
+
+  #javaPicture {
+      order: 14;
+      width: 14.28%;
+  }
+
+  #cPicture {
+      order: 15;
+      width: 14.28%;
+      padding-bottom: 20px;
+  }
+
+  #html, #css, #javascript, #jquery, #bootstrap3, #java, #c {
+      filter: grayscale(100%);
+  }
+
+  #contact {
+      order: 16;
+      width: 100%;
+  }
+
+  .textContact {
+      font-size: 16px;
+  }
+
+}

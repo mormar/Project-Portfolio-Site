@@ -1,0 +1,99 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.picture {
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+}
+
+.textAboutMe {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5em;
+}
+
+#projectTitle {
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.textProjectTitle {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.textProject {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+#skillsTitle {
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.textSkills  {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+#bootstrap3 {
+    border-radius: 50%;
+}
+
+.textContact {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#myGithub {
+    padding-top: 15px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#about {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+#projects {
+    background-color: #5c6b76;
+}
+
+#skills {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #5c6b76;
+    font-family: "Roboto", sans-serif;
+}
